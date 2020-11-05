@@ -28,6 +28,81 @@
   color: #61dafb;
 }
 
+
+.todo{
+  width: 30vw;
+  height: 60vh;
+  left: 50%;
+  top: 50%;
+  margin-top: -30vh;
+  margin-left: -15vw;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.slot{
+  border-radius: 4px;
+  padding: 1vh;
+  min-width: 40%;
+  margin-top: 1vw;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.slot-blue{
+  background-color: #13CAD1 ;
+
+}
+.slot-red{
+  background-color:red ;
+}
+
+.bookSlot{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.bookSlot > input{
+  border: none;
+  text-align: center;
+  border-bottom:1px solid gray;
+  outline: none;
+}
+
+.controls{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.controls > button{
+  border-radius: 5px;
+  outline: none;
+  margin: auto;
+  padding: 7px;
+  border: none;
+}
+
+.cancel{
+  background-color:  red;
+}
+
+.save{
+  background-color: royalblue;
+}
+
+a{
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
